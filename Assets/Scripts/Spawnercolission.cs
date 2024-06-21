@@ -18,7 +18,21 @@ public class SpawnerCollision : MonoBehaviour
             Instantiate(objectToInstantiate, collisionPoint, Quaternion.identity);
         }
     }
+   
+    /*
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Verifica si el objeto que activó el trigger tiene la etiqueta deseada
+        if (other.CompareTag(targetTag))
+        {
+            // Obtiene el punto de colisión (punto de contacto del trigger)
+            Vector2 collisionPoint = other.transform.position;
 
+            // Instancia el objeto en el punto de colisión
+            Instantiate(objectToInstantiate, collisionPoint, Quaternion.identity);
+        }
+    }
+    */
     public void SpawnCollision()
     {
         // Este método puede ser usado si deseas instanciar el objeto desde otro lugar
