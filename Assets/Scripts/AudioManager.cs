@@ -77,4 +77,17 @@ public class AudioManager : MonoBehaviour
             audioControl.audioSource.PlayOneShot(audioControl.volumeAdjustSound);
         }
     }
+
+    // Nueva función para reproducir el sonido de ajuste de volumen
+    public void PlayVolumeAdjustSound()
+    {
+        foreach (var audioControl in audioControls)
+        {
+            // Reproducir sonido de ajuste de volumen si está configurado
+            if (audioControl.volumeAdjustSound != null)
+            {
+                audioControl.audioSource.PlayOneShot(audioControl.volumeAdjustSound);
+            }
+        }
+    }
 }
