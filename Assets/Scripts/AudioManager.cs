@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 
 [Serializable]
@@ -17,6 +18,7 @@ public class AudioControl
 public class AudioManager : MonoBehaviour
 {
     public List<AudioControl> audioControls = new List<AudioControl>(); // Lista de controles de audio
+    public float fadeDuration = 1.0f; // Duración del fade in/out
 
     void Start()
     {
@@ -88,6 +90,65 @@ public class AudioManager : MonoBehaviour
             {
                 audioControl.audioSource.PlayOneShot(audioControl.volumeAdjustSound);
             }
+        }
+    }
+
+    // Función para hacer fade out
+    public void FadeOut(AudioControl audioControl)
+    {
+        StartCoroutine(FadeOutCoroutine(audioControl));
+    }
+
+    // Coroutine para hacer fade out
+    private IEnumerator FadeOutCoroutine(AudioControl audioControl)
+    {
+        float startVolume = audioControl.audioSource.volume;
+
+        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
+        {
+            audioControl.audioSource.volume = Mathf.Lerp(startVolume, 0, t / fadeDuration);
+            yield return null;
+        }
+
+        audioControl.audioSource.volume = 0;
+    }
+
+    // Función para hacer fade in
+    public void FadeIn(AudioControl audioControl)
+    {
+        StartCoroutine(FadeInCoroutine(audioControl));
+    }
+
+    // Coroutine para hacer fade in
+    private IEnumerator FadeInCoroutine(AudioControl audioControl)
+    {
+        float startVolume = 0;
+        float targetVolume = PlayerPrefs.GetFloat(audioControl.audioName + "_Volume", audioControl.audioSource.volume);
+
+        for (float t = 0; t < fadeDuration; t += Time.deltaTime)
+        {
+            audioControl.audioSource.volume = Mathf.Lerp(startVolume, targetVolume, t / fadeDuration);
+            yield return null;
+        }
+
+        audioControl.audioSource.volume = targetVolume;
+    }
+
+    // Función pública para hacer fade out sin parámetros
+    public void FadeOut()
+    {
+        if (audioControls.Count > 0)
+        {
+            FadeOut(audioControls[0]); // Aplica el fade out al primer AudioControl en la lista
+        }
+    }
+
+    // Función pública para hacer fade in sin parámetros
+    public void FadeIn()
+    {
+        if (audioControls.Count > 0)
+        {
+            FadeIn(audioControls[0]); // Aplica el fade in al primer AudioControl en la lista
         }
     }
 }

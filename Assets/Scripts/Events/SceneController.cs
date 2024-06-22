@@ -6,6 +6,7 @@ public class SceneController : MonoBehaviour
 {
     public UnityEvent Al_Cambiar_escena;
     public UnityEvent Al_Reiniciar_escena;
+
     public float delayTime = 2f; // Tiempo de retraso en segundos
 
     public KeyCode BTN_restart = KeyCode.R;
