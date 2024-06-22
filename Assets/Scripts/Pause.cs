@@ -66,4 +66,15 @@ public class Pause : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Debug.Log("El juego se reiniciará...");
     }
+
+    public void invocar_esta_pausado()
+    {
+        Esta_pausado.Invoke();
+    }
+
+    public void invocar_esta_reanudado()
+    {
+        Esta_reanudado.Invoke();
+    }
+
 }
