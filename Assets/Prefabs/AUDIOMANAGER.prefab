@@ -50,10 +50,11 @@ MonoBehaviour:
     volumeSlider: {fileID: 0}
     increaseVolumeButton: {fileID: 0}
     decreaseVolumeButton: {fileID: 0}
-    volumeAdjustSound: {fileID: 0}
+    volumeAdjustSound: {fileID: 8300000, guid: bd00e86748ca65f45bcf980639f4cfd0, type: 3}
   - audioName: EFECTO
     audioSource: {fileID: 0}
     volumeSlider: {fileID: 0}
     increaseVolumeButton: {fileID: 0}
     decreaseVolumeButton: {fileID: 0}
-    volumeAdjustSound: {fileID: 0}
+    volumeAdjustSound: {fileID: 8300000, guid: bd00e86748ca65f45bcf980639f4cfd0, type: 3}
+  fadeDuration: 2
