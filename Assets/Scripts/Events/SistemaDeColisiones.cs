@@ -33,7 +33,7 @@ public class SistemaDeColisiones : MonoBehaviour
     {
         if(collision.CompareTag(tag))
         {
-            Debug.Log("HOLI");
+           
             onEnter2D.Invoke();
         }
     }
