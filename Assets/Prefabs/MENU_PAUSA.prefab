@@ -503,7 +503,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 57.125, y: 3.25}
-  m_SizeDelta: {x: 596.3301, y: 100.0825}
+  m_SizeDelta: {x: 596.3301, y: 84.0825}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6392867425199641685
 CanvasRenderer:
@@ -1713,7 +1713,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 57.125, y: 198.25}
-  m_SizeDelta: {x: 596.3301, y: 149.0825}
+  m_SizeDelta: {x: 596.3301, y: 114.0825}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &922427736809453031
 CanvasRenderer:
@@ -1743,7 +1743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: MUSIC
+  m_text: AMBIENT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e481d7e3ea740c24e8c921bbd0692ac8, type: 2}
   m_sharedMaterial: {fileID: 6109544694063138814, guid: e481d7e3ea740c24e8c921bbd0692ac8, type: 2}
