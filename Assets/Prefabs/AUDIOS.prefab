@@ -42,9 +42,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5f8ab2ab7d4327c4b8b89bd7b6a9e792, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1238fbd3e5fbc7341a6df7216e5aec13, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -171,6 +171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4628997957286187190}
   - component: {fileID: 8005996824340845743}
+  - component: {fileID: 6032479382918790947}
   m_Layer: 0
   m_Name: SFX
   m_TagString: Untagged
@@ -203,9 +204,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1d55cee76ab565444ab1989c7401ab00, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.275
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -289,3 +290,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6032479382918790947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4944573235941886045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c5219b7e33214439d92ff985845b7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  libreriaAudio: {fileID: 11400000, guid: b428c20f624634c4bb3769677b9dd545, type: 2}

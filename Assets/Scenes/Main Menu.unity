@@ -14638,6 +14638,14 @@ PrefabInstance:
       propertyPath: Al_Cambiar_escena.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 262621200}
+    - target: {fileID: 6140040082918953224, guid: d75615cfb7a6f7d4388e80c6bbb11081, type: 3}
+      propertyPath: Al_Cambiar_escena.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 262621200}
+    - target: {fileID: 6140040082918953224, guid: d75615cfb7a6f7d4388e80c6bbb11081, type: 3}
+      propertyPath: Al_Cambiar_escena.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: FadeOut
+      objectReference: {fileID: 0}
     - target: {fileID: 6630751341434047678, guid: d75615cfb7a6f7d4388e80c6bbb11081, type: 3}
       propertyPath: m_Name
       value: SCENECONTROLLER
