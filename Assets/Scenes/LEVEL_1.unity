@@ -1043,9 +1043,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virtualCameras:
   - {fileID: 311958945}
-  shakeDuration: 0.1
+  shakeDuration: 0.05
   defaultShakeAmplitude: 2
-  defaultShakeFrequency: 5
+  defaultShakeFrequency: 2
   strongerShakeAmplitude: 2
   strongerShakeFrequency: 3
 --- !u!114 &311958948
