@@ -140,4 +140,4 @@ MonoBehaviour:
           m_StringArgument: FADE_IN_WHITE
           m_BoolArgument: 0
         m_CallState: 2
-  delayTime: 2
+  delayTime: 3.3

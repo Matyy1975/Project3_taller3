@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BACKGROUND2.unity
     guid: cf417ec314bac3e4194b0e862c5c567b
   - enabled: 1
+    path: Assets/Scenes/BACKGROUND3.unity
+    guid: e5edf3ee8c53a14489cb85c095f22408
+  - enabled: 1
     path: Assets/Scenes/LEVEL_1.unity
     guid: 12024204d4b1da54ba95ee38e10a5568
   - enabled: 1
