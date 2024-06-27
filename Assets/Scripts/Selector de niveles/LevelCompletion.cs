@@ -15,5 +15,6 @@ public class LevelCompletion : MonoBehaviour
         // Desbloquear el siguiente nivel
         levelManager.UnlockLevel(currentLevelIndex + 1);
 
+        // Aquí puedes añadir lógica adicional como cargar una pantalla de victoria
     }
 }
