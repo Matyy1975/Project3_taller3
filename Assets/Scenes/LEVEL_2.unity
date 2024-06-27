@@ -8165,6 +8165,26 @@ PrefabInstance:
       propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 786289560}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 311958947}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IniciarTemporizador
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: ShakeCamerasStronger
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Temporizador, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: CameraShaker, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

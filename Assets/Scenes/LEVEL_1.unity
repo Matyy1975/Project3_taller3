@@ -1862,6 +1862,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2118845555}
     - target: {fileID: 7454220746059450927, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
+      propertyPath: onExit2D.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6688826369443797879}
+    - target: {fileID: 7454220746059450927, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: onExit2D.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 1261556854}
@@ -1903,7 +1907,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7454220746059450927, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: onExit2D.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: 
+      value: set_tag
       objectReference: {fileID: 0}
     - target: {fileID: 7454220746059450927, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: onExit2D.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
@@ -2595,7 +2599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7454220746059450927, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: onExit2D.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: 
+      value: set_tag
       objectReference: {fileID: 0}
     - target: {fileID: 7454220746059450927, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: onExit2D.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
@@ -7678,6 +7682,26 @@ PrefabInstance:
       propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 421199968}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 311958947}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: IniciarTemporizador
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: ShakeCamerasStronger
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Temporizador, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8535197066378791707, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: CameraShaker, Assembly-CSharp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8056,7 +8080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7454220746059450927, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: onExit2D.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: 
+      value: set_tag
       objectReference: {fileID: 0}
     - target: {fileID: 7454220746059450927, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: onExit2D.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
@@ -8123,6 +8147,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
+--- !u!1 &6688826369443797879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 795433989971792262, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
+  m_PrefabInstance: {fileID: 6688826369443797878}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7871230003248801903
 PrefabInstance:
   m_ObjectHideFlags: 0
