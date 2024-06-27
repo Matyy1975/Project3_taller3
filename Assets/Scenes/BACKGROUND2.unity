@@ -3786,7 +3786,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 0
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -5877,10 +5877,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: -3.89
+  m_IsGlobal: 1
+  priority: -0.15
   blendDistance: 0
-  weight: 0.945
+  weight: 0.705
   sharedProfile: {fileID: 11400000, guid: 51bbefc79fc8d61449725b1ab170bdba, type: 2}
 --- !u!135 &1909465682
 SphereCollider:
