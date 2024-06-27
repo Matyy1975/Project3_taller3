@@ -1427,7 +1427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a6b70d677dc4f04fb75fe7f2ddc24cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Contador_Global: 26
+  Contador_Global: 13
   contador_Objetivo: 0
   ACTIVAR_EVENTO:
     m_PersistentCalls:
