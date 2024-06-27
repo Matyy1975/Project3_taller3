@@ -2696,17 +2696,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1159755672554929715, guid: 7ebc6f0fe16939c4e831312ca056d809, type: 3}
   m_PrefabInstance: {fileID: 785298854}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &786289560 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9071063884838295260, guid: 5002a93e5463dd44491b3b410cc96b15, type: 3}
-  m_PrefabInstance: {fileID: 2659654464269013505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7156cc3305db62b41a71946729aae4e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &788508613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7251,6 +7240,10 @@ PrefabInstance:
       propertyPath: onMouseRelease.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1051175798}
+    - target: {fileID: 803329245202709997, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: Force
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1585538077551140497, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
@@ -7394,13 +7387,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8167837244223249844, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2118845572}
-    - targetCorrespondingSourceObject: {fileID: 8167837244223249844, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2118845580}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
 --- !u!114 &2118845553 stripped
 MonoBehaviour:
@@ -7424,85 +7411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4ef2db1cc90a024db49f7da4de9b278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2118845569 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9021414256628123424, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
-  m_PrefabInstance: {fileID: 2118845552}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664473322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77af4fc15e4f8f14ca901740e41e4001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2118845572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664473322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58bd93cc5fcfd2c4ea1eddfb92aa5f39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tag: Wall
-  onCollisionEnter2D:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2118845569}
-        m_TargetAssemblyTypeName: SpawnerCollision, Assembly-CSharp
-        m_MethodName: SpawnCollision
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onCollisionStay2D:
-    m_PersistentCalls:
-      m_Calls: []
-  onCollisionExit2D:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &2118845580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664473322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0b4b855e06d5d1468fc2da63c0680b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tag: Wall
-  onEnter2D:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 786289560}
-        m_TargetAssemblyTypeName: Temporizador, Assembly-CSharp
-        m_MethodName: IniciarTemporizador
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onStay2D:
-    m_PersistentCalls:
-      m_Calls: []
-  onExit2D:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &382621435123759116
 PrefabInstance:
   m_ObjectHideFlags: 0
