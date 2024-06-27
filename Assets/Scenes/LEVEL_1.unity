@@ -1043,9 +1043,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   virtualCameras:
   - {fileID: 311958945}
-  shakeDuration: 0.05
-  defaultShakeAmplitude: 2
-  defaultShakeFrequency: 2
+  shakeDuration: 0.5
+  defaultShakeAmplitude: 0.9
+  defaultShakeFrequency: 150
   strongerShakeAmplitude: 2
   strongerShakeFrequency: 3
 --- !u!114 &311958948
@@ -1265,37 +1265,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1159755672554929715, guid: 7ebc6f0fe16939c4e831312ca056d809, type: 3}
   m_PrefabInstance: {fileID: 357282605}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &373518251
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 373518253}
-  m_Layer: 0
-  m_Name: Audio Source
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &373518253
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373518251}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &379325103
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,10 +1479,6 @@ PrefabInstance:
       propertyPath: Al_Reiniciar_Level.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1229881595}
-    - target: {fileID: 2916220106423762544, guid: 5002a93e5463dd44491b3b410cc96b15, type: 3}
-      propertyPath: Al_Reiniciar_Level.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestartScene
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4480,12 +4445,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!114 &1071381963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8343,5 +8308,4 @@ SceneRoots:
   - {fileID: 421199967}
   - {fileID: 1943097496}
   - {fileID: 1628990926}
-  - {fileID: 373518253}
   - {fileID: 2118845552}

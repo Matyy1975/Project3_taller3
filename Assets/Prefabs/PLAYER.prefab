@@ -1453,7 +1453,6 @@ GameObject:
   - component: {fileID: 9021414256628123424}
   - component: {fileID: 2490303609295888507}
   - component: {fileID: 6317449244766377103}
-  - component: {fileID: 7097230852384936078}
   - component: {fileID: 8535197066378791707}
   m_Layer: 0
   m_Name: PLAYER
@@ -1724,7 +1723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: Wall
-  objectToInstantiate: {fileID: 7941854657936457135, guid: 13f62c9d6256c574a99a3764041d47bf, type: 3}
+  objectToInstantiate: {fileID: 3271850064725949258, guid: 13f62c9d6256c574a99a3764041d47bf, type: 3}
 --- !u!58 &2490303609295888507
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1795,40 +1794,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7097230852384936078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8167837244223249844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58bd93cc5fcfd2c4ea1eddfb92aa5f39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tag: Wall
-  onCollisionEnter2D:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9021414256628123424}
-        m_TargetAssemblyTypeName: SpawnerCollision, Assembly-CSharp
-        m_MethodName: SpawnCollision
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onCollisionStay2D:
-    m_PersistentCalls:
-      m_Calls: []
-  onCollisionExit2D:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &8535197066378791707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,6 +1813,18 @@ MonoBehaviour:
       - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Temporizador, Assembly-CSharp
         m_MethodName: IniciarTemporizador
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9021414256628123424}
+        m_TargetAssemblyTypeName: SpawnerCollision, Assembly-CSharp
+        m_MethodName: SpawnCollision
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
