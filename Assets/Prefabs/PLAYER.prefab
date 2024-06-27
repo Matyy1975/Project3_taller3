@@ -1451,7 +1451,6 @@ GameObject:
   - component: {fileID: 803329245202709997}
   - component: {fileID: 3662775486624777977}
   - component: {fileID: 9021414256628123424}
-  - component: {fileID: 2490303609295888507}
   - component: {fileID: 6317449244766377103}
   - component: {fileID: 8535197066378791707}
   - component: {fileID: 7308746339290198240}
@@ -1725,41 +1724,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: Wall
   objectToInstantiate: {fileID: 3271850064725949258, guid: 13f62c9d6256c574a99a3764041d47bf, type: 3}
---- !u!58 &2490303609295888507
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8167837244223249844}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!58 &6317449244766377103
 CircleCollider2D:
   m_ObjectHideFlags: 0
