@@ -1533,8 +1533,7 @@ Transform:
   m_LocalPosition: {x: 1, y: -2.25, z: 0}
   m_LocalScale: {x: 17.50067, y: 16.000881, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1909465680}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &560305891 stripped
@@ -3786,7 +3785,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 0
-  m_RenderPostProcessing: 1
+  m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -5858,12 +5857,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909465679}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: -2.25, z: 0}
+  m_LocalScale: {x: 17.50067, y: 16.000881, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 542849835}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1909465681
 MonoBehaviour:
@@ -5878,9 +5877,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsGlobal: 1
-  priority: -0.15
+  priority: 0
   blendDistance: 0
-  weight: 0.705
+  weight: 1
   sharedProfile: {fileID: 11400000, guid: 51bbefc79fc8d61449725b1ab170bdba, type: 2}
 --- !u!135 &1909465682
 SphereCollider:
@@ -5899,7 +5898,7 @@ SphereCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -7596,6 +7595,7 @@ SceneRoots:
   - {fileID: 1841628380}
   - {fileID: 2118845552}
   - {fileID: 379325105}
+  - {fileID: 1909465680}
   - {fileID: 542849835}
   - {fileID: 8374923604011796503}
   - {fileID: 244473445}
