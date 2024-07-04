@@ -8,13 +8,13 @@ public class ParallaxController : MonoBehaviour
     {
         public RawImage layer;
         public float speed = 1.0f;
-        public float ySpeed = 0.0f; // Nueva velocidad en el eje Y
         public bool freezeWidth = false;
         public bool freezeHeight = false;
         public bool constantMovement = false;
-        public float constantSpeed = 1.0f;
-        [Range(0f, 1f)] public float MovementInterval = 0f;
-        private float timeElapsed = 0.0f;
+        [Header("VELOCIDAD CONSTANTE")]
+        [Range(0, 4)]public float constantSpeed = 1.0f;
+        [Range(0f, 1f)]public float MovementInterval = 0f; // Intervalo en segundos para detener el movimiento constante
+        private float timeElapsed = 0.0f; // Tiempo transcurrido desde el último cambio de dirección
 
         public void ResetTimer()
         {
@@ -60,14 +60,14 @@ public class ParallaxController : MonoBehaviour
             }
             else
             {
-                UpdateParallaxLayer(layer.layer, cameraDelta, layer.speed, layer.ySpeed, layer.freezeWidth, layer.freezeHeight);
+                UpdateParallaxLayer(layer.layer, cameraDelta, layer.speed, layer.freezeWidth, layer.freezeHeight);
             }
         }
 
         cameraPreviousPosition = Camera.main.transform.position;
     }
 
-    void UpdateParallaxLayer(RawImage layer, Vector3 cameraDelta, float parallaxSpeed, float parallaxYSpeed, bool freezeWidth, bool freezeHeight)
+    void UpdateParallaxLayer(RawImage layer, Vector3 cameraDelta, float parallaxSpeed, bool freezeWidth, bool freezeHeight)
     {
         Rect uvRect = layer.uvRect;
 
@@ -77,7 +77,7 @@ public class ParallaxController : MonoBehaviour
         }
         if (!freezeHeight)
         {
-            uvRect.y += cameraDelta.y * parallaxYSpeed * Time.deltaTime; // Aplica la velocidad en el eje Y
+            uvRect.y += cameraDelta.y * parallaxSpeed * Time.deltaTime;
         }
 
         layer.uvRect = uvRect;
