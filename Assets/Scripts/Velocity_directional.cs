@@ -88,5 +88,6 @@ public class Velocity_directional : MonoBehaviour
     {
         rb2D.velocity = Vector2.zero;
         rb2D.angularVelocity = 0f;
+        rb2D.Sleep();
     }
 }
