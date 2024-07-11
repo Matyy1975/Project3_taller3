@@ -5,7 +5,7 @@ using UnityEngine;
 public class Suitch : MonoBehaviour
 {
     public GameObject[] ObjSwitch;
-    bool activado = false;
+    [SerializeField] bool activado = true;
     // Start is called before the first frame update
     void Start()
     {
