@@ -50,7 +50,40 @@ public class Velocity_directional : MonoBehaviour
             rb2D.AddForce(Vector2.down * Force, ForceMode2D.Impulse);
         }
     }
+    [ContextMenu("Arriba_izquierda")]
+    public void Up_Left()
+    {
+        if (rb2D != null)
+        {
+            rb2D.AddForce((Vector2.left + Vector2.up).normalized * Force, ForceMode2D.Impulse);
+        }
+    }
 
+    [ContextMenu("Arriba_derecha")]
+    public void Up_right()
+    {
+        if (rb2D != null)
+        {
+            rb2D.AddForce((Vector2.right + Vector2.up).normalized * Force, ForceMode2D.Impulse);
+        }
+    }
+
+    [ContextMenu("Abajo_izquierda")]
+    public void Down_left()
+    {
+        if (rb2D != null)
+        {
+            rb2D.AddForce((Vector2.right + Vector2.down).normalized * Force, ForceMode2D.Impulse);
+        }
+    }
+    [ContextMenu("Abajo_derecha")]
+    public void Down_right()
+    {
+        if (rb2D != null)
+        {
+            rb2D.AddForce((Vector2.right + Vector2.down).normalized * Force, ForceMode2D.Impulse);
+        }
+    }
     public void Quieto()
     {
         rb2D.velocity = Vector2.zero;

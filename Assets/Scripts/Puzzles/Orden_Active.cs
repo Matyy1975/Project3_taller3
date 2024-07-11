@@ -11,39 +11,42 @@ public class Orden_Active : MonoBehaviour
     public UnityEvent CAMBIO_POSICION;
     public GameObject AGUADOR;
     public Transform[] Posicion;
+    public float transitionDuration = 1.0f; // Duración de la transición en segundos
     int index;
-    int indexDespues;
 
     private void Start()
     {
-        
         Cambia_posicion();
-        Imagen_siguiente_TP.transform.position = Posicion[index].position;
+        Imagen_siguiente_TP.transform.position = Posicion[(index + 1) % Posicion.Length].position;
     }
+
     // Start is called before the first frame update
     [ContextMenu("TEST FUNCION")]
     public void Cambia_posicion()
     {
+        StartCoroutine(TransitionToNextPosition());
+    }
 
-        /*
-        if (index >= Posicion.Length)
+    private IEnumerator TransitionToNextPosition()
+    {
+        Vector3 startPosition = AGUADOR.transform.position;
+        Vector3 endPosition = Posicion[index % Posicion.Length].position;
+
+        float elapsedTime = 0f;
+
+        // Move Imagen_siguiente_TP instantly to the next position
+        Imagen_siguiente_TP.transform.position = Posicion[(index + 1) % Posicion.Length].position;
+
+        // Smoothly transition AGUADOR to the next position
+        while (elapsedTime < transitionDuration)
         {
-            index = 0;
-            Imagen_siguiente_TP.transform.position = Posicion[index].position;
-            //CAMBIA LE POSICION DEL AGUADOR AL SIGUIENTE TRANSFORM DE LA LISTA AL PRINCIPIO
-            AGUADOR.transform.position = Posicion[index].position;
-            CAMBIO_POSICION.Invoke();
-
+            AGUADOR.transform.position = Vector3.Lerp(startPosition, endPosition, elapsedTime / transitionDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
         }
-        */
 
-        //Imagen_siguiente_TP.transform.position = Posicion[index%Posicion.Length].position;
-       // AGUADOR.transform.position = Posicion[index % Posicion.Length].position;
+        AGUADOR.transform.position = endPosition;
 
-
-        //CAMBIA LA 
-        Imagen_siguiente_TP.transform.position = Posicion[(index + 1)% Posicion.Length].position;
-        AGUADOR.transform.position = Posicion[index % Posicion.Length].position;
         CAMBIO_POSICION.Invoke();
         index++;
     }

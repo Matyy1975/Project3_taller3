@@ -46763,6 +46763,7 @@ MonoBehaviour:
   - {fileID: 1353763595}
   - {fileID: 537455947}
   - {fileID: 1891238766}
+  transitionDuration: 1
 --- !u!4 &1817147942
 Transform:
   m_ObjectHideFlags: 0
