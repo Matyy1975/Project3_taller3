@@ -12,12 +12,17 @@ public class Orden_Active : MonoBehaviour
     public GameObject AGUADOR;
     public Transform[] Posicion;
     public float transitionDuration = 1.0f; // Duración de la transición en segundos
+    public bool Se_ejecuta = true;
     int index;
 
     private void Start()
     {
-        Cambia_posicion();
-        Imagen_siguiente_TP.transform.position = Posicion[(index + 1) % Posicion.Length].position;
+        if (Se_ejecuta)
+        {
+            Cambia_posicion();
+            Imagen_siguiente_TP.transform.position = Posicion[(index + 1) % Posicion.Length].position;
+        }
+        
     }
 
     // Start is called before the first frame update

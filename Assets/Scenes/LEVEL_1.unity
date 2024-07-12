@@ -4297,6 +4297,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d8079ea07bf3a4fb3b7e3fa3894be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1051175799 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6121290844690660954, guid: 6a88ea52234d9f74388e541e1f4385a9, type: 3}
+  m_PrefabInstance: {fileID: 1051175797}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d8079ea07bf3a4fb3b7e3fa3894be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1071381958
 GameObject:
   m_ObjectHideFlags: 0
@@ -7582,6 +7593,14 @@ PrefabInstance:
       propertyPath: onMouseRelease.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1051175798}
+    - target: {fileID: 599105588649720150, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onMouseExitTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1051175799}
+    - target: {fileID: 599105588649720150, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: onMouseOverTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1051175799}
     - target: {fileID: 1585538077551140497, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 

@@ -17,6 +17,7 @@ public class SistemaDeColisiones : MonoBehaviour
         {
             if (collision.CompareTag(tag))
             {
+                print("Hola " + gameObject.name);
                 onExit2D.Invoke();
             }
         }
