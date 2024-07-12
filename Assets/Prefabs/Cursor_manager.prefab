@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4228003324280439455}
   - component: {fileID: 743870498690839772}
+  - component: {fileID: 6121290844690660954}
   m_Layer: 0
   m_Name: Cursor_manager
   m_TagString: Untagged
@@ -44,5 +45,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d8079ea07bf3a4fb3b7e3fa3894be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultCursor: {fileID: 11400000, guid: 1a03c713a5ae99740ab9d8c0a3fd7f85, type: 2}
-  cursor: {fileID: 0}
+  defaultCursor: {fileID: 11400000, guid: 4c39a77a9bd1dce4a99e7d8e3314e74c, type: 2}
+  cursor: {fileID: 11400000, guid: 08bf117d320fde349aa3625bff0a0c27, type: 2}
+--- !u!114 &6121290844690660954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8022942158121396771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d8079ea07bf3a4fb3b7e3fa3894be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultCursor: {fileID: 11400000, guid: 4c39a77a9bd1dce4a99e7d8e3314e74c, type: 2}
+  cursor: {fileID: 11400000, guid: f7c713deeb06ca24298d940b871cb781, type: 2}
