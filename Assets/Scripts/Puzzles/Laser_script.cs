@@ -18,6 +18,7 @@ public class Laser_script : MonoBehaviour
     {
         
     }
+    [ContextMenu ("ACCION")]
     public void accion()
     {
         if (Entro == 0)
