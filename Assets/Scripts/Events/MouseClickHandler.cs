@@ -9,8 +9,8 @@ public class MouseClickHandler2D : MonoBehaviour
     public UnityEvent onMouseOverTarget;
     public UnityEvent onMouseExitTarget;
 
-    private bool isClicked = false;
-    private bool wasOverTarget = false;
+    [SerializeField] private bool isClicked = false;
+    [SerializeField] private bool wasOverTarget = false;
 
     void Update()
     {
@@ -52,5 +52,10 @@ public class MouseClickHandler2D : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public void clicker_off()
+    {
+        isClicked = false;
     }
 }

@@ -1026,11 +1026,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4093032142806445593, guid: c707f6439a197694f95402e048a5ed01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4093032142806445593, guid: c707f6439a197694f95402e048a5ed01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4093032142806445593, guid: c707f6439a197694f95402e048a5ed01, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1942,7 +1942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1837226958598185309, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.5
+      value: 6.25
       objectReference: {fileID: 0}
     - target: {fileID: 1837226958598185309, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3048,11 +3048,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1837226958598185309, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1837226958598185309, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1837226958598185309, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6329,7 +6329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1837226958598185309, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.75
+      value: 6.25
       objectReference: {fileID: 0}
     - target: {fileID: 1837226958598185309, guid: f65af5c7551f56b4fae9189e803188f0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8511,6 +8511,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   transitionDuration: 1
+  Se_ejecuta: 1
 --- !u!4 &1817147942
 Transform:
   m_ObjectHideFlags: 0
