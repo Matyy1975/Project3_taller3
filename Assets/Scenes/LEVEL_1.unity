@@ -5395,7 +5395,7 @@ PrefabInstance:
     - target: {fileID: 3003046366262442680, guid: 54626caa6f60fdc4facbc40a7f7a015d, type: 3}
       propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1261556854}
+      objectReference: {fileID: 2016487562}
     - target: {fileID: 3003046366262442680, guid: 54626caa6f60fdc4facbc40a7f7a015d, type: 3}
       propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
@@ -8275,6 +8275,18 @@ PrefabInstance:
     - target: {fileID: 2480603205989594590, guid: f2a3ae6b2ff4022418710f59483ec652, type: 3}
       propertyPath: m_Name
       value: PARALLAX 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606794047866601554, guid: f2a3ae6b2ff4022418710f59483ec652, type: 3}
+      propertyPath: m_Color.b
+      value: 0.3962264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606794047866601554, guid: f2a3ae6b2ff4022418710f59483ec652, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3962264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606794047866601554, guid: f2a3ae6b2ff4022418710f59483ec652, type: 3}
+      propertyPath: m_Color.r
+      value: 0.3962264
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

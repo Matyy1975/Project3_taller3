@@ -7094,7 +7094,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -19
+  m_SortingOrder: -20
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.33536115, g: 0.32423636, b: 0.4264151, a: 1}
   m_FlipX: 0
@@ -10740,7 +10740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5058824}
+  m_Color: {r: 0.49056602, g: 0.2269703, b: 0.10412959, a: 0.5058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -34273,7 +34273,7 @@ PrefabInstance:
     - target: {fileID: 3003046366262442680, guid: 54626caa6f60fdc4facbc40a7f7a015d, type: 3}
       propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1261556854}
+      objectReference: {fileID: 2016487562}
     - target: {fileID: 3003046366262442680, guid: 54626caa6f60fdc4facbc40a7f7a015d, type: 3}
       propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
