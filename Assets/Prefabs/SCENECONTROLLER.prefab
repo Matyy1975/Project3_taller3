@@ -99,7 +99,7 @@ MonoBehaviour:
           m_StringArgument: THE_FADE_OUT
           m_BoolArgument: 0
         m_CallState: 2
-  delayTime: 2.2
+  delayTime: 3
   BTN_restart: 0
 --- !u!114 &2979369484085139169
 MonoBehaviour:

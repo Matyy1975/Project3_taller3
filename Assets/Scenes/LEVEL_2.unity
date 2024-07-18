@@ -5580,7 +5580,7 @@ PrefabInstance:
     - target: {fileID: 8744620013943177322, guid: 54626caa6f60fdc4facbc40a7f7a015d, type: 3}
       propertyPath: AL_ACTIVAR_GAMEOBJECT.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1261556854}
+      objectReference: {fileID: 2016487562}
     - target: {fileID: 9116067645603287332, guid: 54626caa6f60fdc4facbc40a7f7a015d, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5649,7 +5649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5535762393969317931, guid: 2de1fae08f4991a4ba0c877c41edb71e, type: 3}
       propertyPath: fadeDuration
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5535762393969317931, guid: 2de1fae08f4991a4ba0c877c41edb71e, type: 3}
       propertyPath: audioControls.Array.data[0].audioSource
@@ -8017,74 +8017,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2000678535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1817147940
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1817147942}
-  - component: {fileID: 1817147941}
-  m_Layer: 0
-  m_Name: TP AGUADOR
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1817147941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817147940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 544c731d470d02b44a897ac1df8dbe96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Imagen_siguiente_TP: {fileID: 0}
-  CAMBIO_POSICION:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: TP_ACTIVE
-          m_BoolArgument: 0
-        m_CallState: 2
-  AGUADOR: {fileID: 0}
-  Posicion:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  transitionDuration: 1
-  Se_ejecuta: 1
---- !u!4 &1817147942
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817147940}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.44, y: 16.97, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1834604077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10399,9 +10331,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6614443558788345155, guid: 04d65cddc12555448866aa96e0c46974, type: 3}
       propertyPath: m_text
-      value: 'Encuentra
-
-        la salida'
+      value: Elimina los aguadores
       objectReference: {fileID: 0}
     - target: {fileID: 8151237708478929620, guid: 04d65cddc12555448866aa96e0c46974, type: 3}
       propertyPath: m_Pivot.x
@@ -11008,7 +10938,6 @@ SceneRoots:
   - {fileID: 720412091}
   - {fileID: 102857667}
   - {fileID: 1276112916}
-  - {fileID: 1817147942}
   - {fileID: 1481068414}
   - {fileID: 2077147299}
   - {fileID: 2075269794}

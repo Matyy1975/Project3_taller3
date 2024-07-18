@@ -57,4 +57,4 @@ MonoBehaviour:
     increaseVolumeButton: {fileID: 0}
     decreaseVolumeButton: {fileID: 0}
     volumeAdjustSound: {fileID: 8300000, guid: bd00e86748ca65f45bcf980639f4cfd0, type: 3}
-  fadeDuration: 2
+  fadeDuration: 3
