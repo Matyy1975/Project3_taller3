@@ -4598,6 +4598,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: AGUADOR IND (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8325551593344357981, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
+      propertyPath: m_Color.b
+      value: 0.81960785
+      objectReference: {fileID: 0}
+    - target: {fileID: 8325551593344357981, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7647059
+      objectReference: {fileID: 0}
+    - target: {fileID: 8325551593344357981, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 8325551593344357981, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8325551593344357981, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f28427a03e76afd4c9daf5619b20e01f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8671,6 +8691,55 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 6001086270904273799, guid: 9198362ed2df67042aa57f95f872fd3c, type: 3}
   m_PrefabInstance: {fileID: 850532984}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &860234852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 860234854}
+  - component: {fileID: 860234853}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &860234853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860234852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 51bbefc79fc8d61449725b1ab170bdba, type: 2}
+--- !u!4 &860234854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860234852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890897781
 GameObject:
   m_ObjectHideFlags: 0
@@ -9646,7 +9715,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -20469,6 +20538,10 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[6].m_Target
       value: 
       objectReference: {fileID: 1051175798}
+    - target: {fileID: 3576535409380151292, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0620ba5922d98f478d2a2308b3961d5, type: 2}
     - target: {fileID: 5174828833322350891, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.969999
@@ -21225,3 +21298,4 @@ SceneRoots:
   - {fileID: 28036742}
   - {fileID: 142035342}
   - {fileID: 332255287}
+  - {fileID: 860234854}
