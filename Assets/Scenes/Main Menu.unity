@@ -5184,7 +5184,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 11
+    OrthographicSize: 17.48
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -5337,7 +5337,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 11
+  orthographic size: 17.48
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -14721,6 +14721,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2423958655747609265, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2880366873373295461, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3854126529161958315, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
       propertyPath: m_Camera
       value: 
@@ -14804,6 +14812,22 @@ PrefabInstance:
     - target: {fileID: 5563669808367156950, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771247511878207679, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
+      propertyPath: parallaxLayers.Array.data[2].speed
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771247511878207679, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
+      propertyPath: parallaxLayers.Array.data[4].speed
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5771247511878207679, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
+      propertyPath: parallaxLayers.Array.data[7].speed
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7368438281562308724, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8109083727333903986, guid: a3482710d1e1ab641bbde728e8635168, type: 3}
       propertyPath: m_Name

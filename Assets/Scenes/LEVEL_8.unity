@@ -4883,7 +4883,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 378759580565487069, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.1854
+      value: -4.1854
       objectReference: {fileID: 0}
     - target: {fileID: 378759580565487069, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5274,7 +5274,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Llega al contenedor
+  m_text: 'Elimina los
+
+    contenedores'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e481d7e3ea740c24e8c921bbd0692ac8, type: 2}
   m_sharedMaterial: {fileID: 6109544694063138814, guid: e481d7e3ea740c24e8c921bbd0692ac8, type: 2}
@@ -5301,8 +5303,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -16811,11 +16813,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 378759580565487069, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.3146
+      value: 7.0646
       objectReference: {fileID: 0}
     - target: {fileID: 378759580565487069, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.017039
+      value: 12.26704
       objectReference: {fileID: 0}
     - target: {fileID: 378759580565487069, guid: 0c661dbe480c8394cb0c69b2be20f8e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19922,7 +19924,7 @@ PrefabInstance:
       objectReference: {fileID: 841553342}
     - target: {fileID: 3003046366262442680, guid: 54626caa6f60fdc4facbc40a7f7a015d, type: 3}
       propertyPath: onEnter2D.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_StringArgument
-      value: LEVEL_7
+      value: FINAL
       objectReference: {fileID: 0}
     - target: {fileID: 3883854833301714892, guid: 54626caa6f60fdc4facbc40a7f7a015d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31549,6 +31551,10 @@ PrefabInstance:
       propertyPath: onMouseOverTarget.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1051175799}
+    - target: {fileID: 803329245202709997, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
+      propertyPath: Force
+      value: 26
+      objectReference: {fileID: 0}
     - target: {fileID: 1585538077551140497, guid: 45a89b7580fc8fa4380bd21e8f11def6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
