@@ -10,7 +10,7 @@ public class Temporizador : MonoBehaviour
     public UnityEvent onTiempoCompleto;
 
     private float tiempoRestante;
-    private bool temporizadorActivo;
+    [SerializeField] private bool temporizadorActivo;
 
     void Start()
     {
